@@ -4,12 +4,17 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
 import { AppComponent } from "./app.component";
 
+import { UserService } from "./shared/user/user.service";
+
 @NgModule({
   imports: [
     NativeScriptModule,
     NativeScriptFormsModule
   ],
   declarations: [AppComponent],
+  providers: [
+    UserService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
