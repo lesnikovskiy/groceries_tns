@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\Java\IDE\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_d22150d403ccb603cad501f8a0412120bd6cf5f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-23.4.0_b988721bd239fd8c40ad65afb198170b2b622c84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ed69cd5603304a6fc9a36a94c8be977a1d0e4857">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_70284f622ab05bdb273e0cdd26ec8017694cf41f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\Groceries\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_18186f2c2e81f9c6d1e27b92eabcb11abf5fb7d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-23.4.0_302c57e2b7ca49388488b68ab06931750f828ceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-23.4.0_ac3a1a13b3a1bbded99cd24d90e5d1201c35b709.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\Groceries\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cb501f7cf4d74a5f9ec1a9c8172e552f57ea3215">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\Groceries-runtime-unspecified_0464e2895f7bd77c13a120cf01fe7c3081001626.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_80cff583a8947b80369cb108dba00f950b4c38ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_b1b343641ccf11127d9e9d7e4dc53e6cd1ad695a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_9c4b22c03a90de62cdfb32d5abcf3d47d3251323.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\PROGRAMMING LIBRARY\NativeScript\Groceries\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_c9a32a4d429e643556a6ad86169fa57f500a1300.jar" />
+    </item>
+
+</items>
