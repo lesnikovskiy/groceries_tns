@@ -7,6 +7,7 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { AppComponent } from "./app.component";
 
 import { UserService } from "./shared/user/user.service";
+import { GroceryListService } from "./shared/grocery/grocery-list.service";
 import { routes, navigatableComponents } from "./app.routing";
 
 @NgModule({
@@ -22,7 +23,8 @@ import { routes, navigatableComponents } from "./app.routing";
     ...navigatableComponents
   ],
   providers: [
-    UserService
+    UserService,
+    GroceryListService
   ],
   bootstrap: [AppComponent]
 })
