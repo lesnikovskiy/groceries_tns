@@ -12,9 +12,21 @@ import { Config } from "../config";
 export class UserService {
     constructor(private http: Http) {}
 
-	register(user: User) {
-        console.log(JSON.stringify(user));
+	login(user: User) {
+		const headers: Headers = new Headers();
+		headers.append("Content-Type", "application/json");
 
+		return this.http.post(Config.apiUrl + "oauth/token", JSON.stringify({
+			username: user.email,
+			password: user.password,
+			grant_type: "password"
+		}), {headers: headers})
+			.map((response: Response) => response.json())
+			.do(data => Config.token = data.Result.access_token)
+			.catch(this.handleErrors);
+	}
+
+	register(user: User) {
 		const headers: Headers = new Headers();
 		headers.append("Content-Type", "application/json");
 
