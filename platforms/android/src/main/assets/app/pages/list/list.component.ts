@@ -3,6 +3,7 @@ import { TextField } from "ui/text-field";
 
 import { Grocery } from "../../shared/grocery/grocery";
 import { GroceryListService } from "../../shared/grocery/grocery-list.service";
+import * as SocialShare from "nativescript-social-share";
 
 @Component({
 	selector: "list",
@@ -34,7 +35,7 @@ export class ListComponent implements OnInit {
 		);
 	}
 
-	add() {
+	add(): void {
 		if (this.grocery.trim() === "") {
 			alert("Enter a grocery item");
 			return;
@@ -57,5 +58,14 @@ export class ListComponent implements OnInit {
 					this.grocery = "";
 				}
 			);
+	}
+
+	share(): void {
+		const listString: string = this.groceryList
+			.map(grocery => grocery.name)
+			.join(", ")
+			.trim();
+
+		SocialShare.shareText(listString);
 	}
 }

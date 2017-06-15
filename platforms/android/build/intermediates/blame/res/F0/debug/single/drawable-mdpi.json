@@ -44,12 +44,12 @@
         "source": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\src\\main\\res\\drawable-mdpi\\pear.png"
     },
     {
-        "merged": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-mdpi\\unchecked.png",
-        "source": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\src\\main\\res\\drawable-mdpi\\unchecked.png"
-    },
-    {
         "merged": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-mdpi\\menu.png",
         "source": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\src\\main\\res\\drawable-mdpi\\menu.png"
+    },
+    {
+        "merged": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-mdpi\\unchecked.png",
+        "source": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\src\\main\\res\\drawable-mdpi\\unchecked.png"
     },
     {
         "merged": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-mdpi\\unchecked_white.png",

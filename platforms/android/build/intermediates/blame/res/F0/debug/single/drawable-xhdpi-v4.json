@@ -76,12 +76,12 @@
         "source": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "D:\\PROGRAMMING LIBRARY\\NativeScript\\Groceries\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
