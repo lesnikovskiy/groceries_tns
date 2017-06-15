@@ -64,12 +64,16 @@ export class ListComponent implements OnInit {
 	}
 
 	delete(grocery: Grocery) {
+		this.isLoading = true;
+
 		this.groceryListService.delete(grocery.id).subscribe(
 			() => {
 				// Running the array splice in a zone ensures that change detection gets triggered.
 				this.zone.run(() => {
 					const index = this.groceryList.indexOf(grocery);
 					this.groceryList.splice(index, 1);
+
+					this.isLoading = false;
 				});
 			},
 			error => alert(error)

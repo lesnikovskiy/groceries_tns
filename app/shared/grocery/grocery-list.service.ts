@@ -47,12 +47,7 @@ export class GroceryListService {
 		headers.append("Content-Type", "application/json");
 
 		return this.http.delete(`${Config.apiUrl}Groceries/${id}`, {headers: headers})
-			.map((res:Response) => {
-				const resText = res.json();
-				console.log(resText);
-
-				return resText;
-			})
+			.map((res:Response) => res.json())
 			.catch(this.handleErrors);
 	}
 
