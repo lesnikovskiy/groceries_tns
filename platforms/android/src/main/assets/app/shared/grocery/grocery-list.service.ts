@@ -41,6 +41,21 @@ export class GroceryListService {
 			.catch(this.handleErrors);
 	}
 
+	delete(id: string) {
+		const headers: Headers = new Headers();
+		headers.append("Authorization", `Bearer ${Config.token}`);
+		headers.append("Content-Type", "application/json");
+
+		return this.http.delete(`${Config.apiUrl}Groceries/${id}`, {headers: headers})
+			.map((res:Response) => {
+				const resText = res.json();
+				console.log(resText);
+
+				return resText;
+			})
+			.catch(this.handleErrors);
+	}
+
 	handleErrors(error: Response) {
 		console.log(JSON.stringify(error.json()));
 		return Observable.throw(error);
