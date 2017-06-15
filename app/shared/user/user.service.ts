@@ -31,11 +31,11 @@ export class UserService {
 		headers.append("Content-Type", "application/json");
 
 		return this.http.post(Config.apiUrl + "Users", JSON.stringify({
-          Username: user.email,
-		  Email: user.email,
-		  Password: user.password
+			Username: user.email,
+			Email: user.email,
+			Password: user.password
 		}), {headers: headers})
-		.catch(this.handleErrors);
+			.catch(this.handleErrors);
 	}
 
 	handleErrors(error: Response) {

@@ -11,8 +11,8 @@ import { Grocery } from "./grocery";
 export class GroceryListService {
 	constructor(private http: Http) {}
 
-	load() {
-		const headers = new Headers();
+	load(): Observable<Grocery[]> {
+		const headers: Headers = new Headers();
 		headers.append("Authorization", `Bearer ${Config.token}`);
 
 		return this.http.get(`${Config.apiUrl}Groceries`, {headers: headers})
@@ -25,6 +25,19 @@ export class GroceryListService {
 
 				return groceryList;
 			})
+			.catch(this.handleErrors);
+	}
+
+	add(name: string): Observable<Grocery> {
+		const headers: Headers = new Headers();
+		headers.append("Authorization", `Bearer ${Config.token}`);
+		headers.append("Content-Type", "application/json");
+
+		return this.http.post(`${Config.apiUrl}Groceries`, JSON.stringify({
+			Name: name
+		}), {headers: headers})
+			.map((res: Response) => res.json())
+			.map(data => new Grocery(data.Result.Id, name))
 			.catch(this.handleErrors);
 	}
 
